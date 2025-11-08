@@ -143,8 +143,8 @@ src/
 │   │   ├── ParentComponent.vue
 │   │   └── ChildComponent.vue
 │   ├── example4/          # E-06: Provide/Inject
-│   ├── example5/          # E-07~E-09
-│   └── example6/          # E-10~E-12 
+│   ├── example5/          # E-07, E-08~E-12
+│   └── example6/          # 고급 예제
 └── App.vue
 ```
 
@@ -158,13 +158,115 @@ src/
 
 ## 📸 스크린샷
 
-### Before (Vue 2)
-![Vue 2 Screenshot](./screenshots/vue2-before.png)
+### E-01: 기본 반응성
+#### Before (Vue 2)
+![E01 변경전](./screenshots/E01변경전.png)
 
-### After (Vue 3)
-![Vue 3 Screenshot](./screenshots/vue3-after.png)
+#### After (Vue 3)
+![E01 변경후](./screenshots/E01변경후.png)
 
-> 동일한 UI/UX를 유지하면서 내부 구조만 Vue 3로 현대화
+---
+
+### E-02: 계산된 속성
+#### Before (Vue 2)
+![E02 변경전](./screenshots/E02변경전.png)
+
+#### After (Vue 3)
+![E02 변경후](./screenshots/E02변경후.png)
+
+---
+
+### E-03: 양방향 바인딩
+#### Before (Vue 2)
+![E03 변경전](./screenshots/E03변경전.png)
+
+#### After (Vue 3)
+![E03 변경후](./screenshots/E03변경후.png)
+
+---
+
+### E-04: 이벤트 핸들링
+#### Before (Vue 2)
+![E04 변경전](./screenshots/E04변경전.png)
+
+#### After (Vue 3)
+![E04 변경후](./screenshots/E04변경후.png)
+
+---
+
+### E-05: 부모-자식 컴포넌트 통신
+#### Before (Vue 2)
+![E05 변경전](./screenshots/E05변경전.png)
+
+#### After (Vue 3)
+![E05 변경후](./screenshots/E05변경후.png)
+
+---
+
+### E-06: Provide/Inject 패턴
+#### Before (Vue 2)
+![E06 변경전](./screenshots/E06변경전.png)
+
+#### After (Vue 3)
+![E06 변경후](./screenshots/E06변경후.png)
+
+---
+
+### E-07: Options API 전체 기능 변환
+#### Before (Vue 2)
+![E07 변경전](./screenshots/E07변경전.png)
+
+#### After (Vue 3)
+![E07 변경후](./screenshots/E07변경후.png)
+
+---
+
+### E-08: Watch와 반응성
+#### Before (Vue 2)
+![E08 변경전](./screenshots/E08변경전.png)
+
+#### After (Vue 3)
+![E08 변경후](./screenshots/E08변경후.png)
+
+---
+
+### E-09: 조건부 렌더링
+#### Before (Vue 2)
+![E09 변경전](./screenshots/E09변경전.png)
+
+#### After (Vue 3)
+![E09 변경후](./screenshots/E09변경후.png)
+
+---
+
+### E-10: 리스트 렌더링
+#### Before (Vue 2)
+![E10 변경전](./screenshots/E10변경전.png)
+
+#### After (Vue 3)
+![E10 변경후](./screenshots/E10변경후.png)
+
+---
+
+### E-11: 폼 입력 바인딩
+#### Before (Vue 2)
+![E11 변경전](./screenshots/E11변경전.png)
+
+#### After (Vue 3)
+![E11 변경후](./screenshots/E11변경후.png)
+
+---
+
+### E-12: 고급 Composition API
+#### Before (Vue 2)
+![E12 변경전](./screenshots/E12변경전.png)
+
+#### After (Vue 3)
+![E12 변경후](./screenshots/E12변경후.png)
+
+---
+
+> 모든 예제에서 동일한 UI/UX를 유지하면서 내부 구조만 Vue 3로 현대화했습니다.
 
 ## 📌 주의사항
 
@@ -182,7 +284,3 @@ src/
 - 라이프사이클 훅의 Composition API 버전
 
 ---
-
-**License**: MIT  
-**Vue Version**: 3.x  
-**Author**: [Your Name]
